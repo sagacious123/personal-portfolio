@@ -20,7 +20,7 @@ window.addEventListener("scroll", function() {
 })
 
 const navLink = document.querySelectorAll(".nav-items a");
-for(let i = 0; i < navLink.length; i++) {
+for(var i = 0; i < navLink.length; i++) {
     navLink[i].addEventListener("click", function(e) {
 
         if(e.target) {

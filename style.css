@@ -1,7 +1,8 @@
+@import url(//db.onlinewebfonts.com/c/d66fa62dabed66f2226a1b2d17da0579?family=Showcard+Gothic);
+
 * {
     box-sizing: border-box;
 }
-@import url(//db.onlinewebfonts.com/c/d66fa62dabed66f2226a1b2d17da0579?family=Showcard+Gothic);
 html {
     scroll-behavior: smooth;
 }
@@ -95,7 +96,8 @@ a {
 }
 .hero {
     /* background-image: url("wave.svg"); */
-    background: linear-gradient(to bottom, #7a19f1, #332179);
+    background: linear-gradient(to bottom, #7a19f1ef, #332179ef), url(images/my-img.jpg) no-repeat ;
+    background-size: cover;
     /* height: 600px; */
     position: relative;
     background-attachment: fixed;
@@ -158,14 +160,14 @@ a {
     margin-right: 0;
     position: absolute;
     z-index: 1;
-    background-image: url(wave12.svg);
+    background-image: url(images/wave12.svg);
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
     opacity: .1;
     animation: wavetwo 20s linear infinite;
 } */
-@keyframes wavetwo {
+/* @keyframes wavetwo {
     0% {
         background-position: 90vw;
     }
@@ -175,7 +177,7 @@ a {
     100% {
         background-position: 90vw;
     }
-}
+} */
 .hero-inner::after {
     content: " ";
     bottom: -368px;
@@ -205,32 +207,6 @@ a {
     opacity: .1;
     /* animation: wavethree 16s linear infinite; */
 }
- /* .hero-inner2::after {
-    content: " ";
-    bottom: -233px;
-    left: 0;
-    right: 0;
-    margin-right: 0;
-    position: absolute;
-    z-index: 1;
-    background-image: url(wave9.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    opacity: .1;
-    animation: wavefour 20s linear infinite;
-} */
-@keyframes wavefour {
-    0% {
-        background-position: 0;
-    }
-    50% {
-        background-position: 100vw;
-    }
-    100% {
-        background-position: 0;
-    }
-} 
 .hero-inner {
     padding: 40px 0;
     background-attachment: fixed;
@@ -339,7 +315,7 @@ a {
     height: 160px; 
     border-radius: 50%; 
     float: left; 
-    box-shadow: -6px -6px 0px rgba(255, 35, 90, 0.719);
+    box-shadow: -4px -4px 0px rgba(255, 35, 90, 0.719);
     background-color: black;
 }
 .about-section p {
@@ -600,7 +576,7 @@ hr.style-one {
         content: none;
     }
     .navitems-scroll {
-        top: 3.5rem !important;
+        top: 3.3rem !important;
     }
     .about-section .row {
         text-align: center;
@@ -698,7 +674,7 @@ hr.style-one {
 }
 @media (max-width:568px) {
     .img-webpage {
-        top: 1rem;
+        top: .8rem;
     }
 }
 @media (max-width:480px) {
