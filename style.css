@@ -1,4 +1,14 @@
-@import url(//db.onlinewebfonts.com/c/d66fa62dabed66f2226a1b2d17da0579?family=Showcard+Gothic);
+@import url(http://db.onlinewebfonts.com/c/d66fa62dabed66f2226a1b2d17da0579?family=Showcard+Gothic);
+
+@font-face {
+    font-family: 'bradley';
+    src: url('bradhitc.ttf');
+}
+
+@font-face {
+    font-family: 'Showcard Gothic';
+    src: url('d66fa62dabed66f2226a1b2d17da0579.eot');
+}
 
 /* font-family: 'Baloo 2', cursive;
 font-family: 'Josefin Slab', serif;
@@ -109,7 +119,7 @@ a {
     font-size: 1.5rem;
     text-shadow: 2px 2px 0px #7a19f1, 4px 5px 1px #332179;
     letter-spacing: 1px;
-    font-family: "Showcard Gothic"; src: url("//db.onlinewebfonts.com/t/d66fa62dabed66f2226a1b2d17da0579.eot");
+    font-family: Showcard Gothic;
     /* padding: 30px 0; */
 }
 .nav-items {
@@ -183,7 +193,8 @@ a {
 }
 .hero {
     /* background-image: url("wave.svg"); */
-    background: linear-gradient(to bottom, #7a19f12b, #33217940), url(images/bg-pink2.jpg) no-repeat ;
+    background: linear-gradient(to bottom, rgb(101 10 51 / 47%), #080a5275), url(images/bg-pink2.jpg) no-repeat;
+    /* background: linear-gradient(to bottom, #7a19f12b, #33217940), url(images/bg-pink2.jpg) no-repeat ; */
     background-size: cover;
     /* height: 600px; */
     position: relative;
@@ -424,7 +435,8 @@ a {
     text-shadow: 1px 1px 1px #560db7, 2px 2px 2px white;
     color: rgb(255, 67, 99); 
     /* margin-left: 12rem; */
-    font-family: Bradley Hand ITC;
+    font-family: bradley;
+    /* font-family: Bradley Hand ITC; */
     text-align: center;
 }
 .about-section {
@@ -434,7 +446,6 @@ a {
 }
 .about-group {
     display: flex;
-    flex-direction: row-reverse;
     justify-content: space-between;
     align-items: flex-start;
 }
@@ -442,7 +453,6 @@ a {
     max-width: 45%;
     height: 330px; 
     border-radius: 10px; 
-    margin-top: 1rem;
     /* box-shadow: -4px -4px 0px rgba(255, 35, 90, 0.719); */
 }
 .about-content {
@@ -847,7 +857,7 @@ hr.style-one {
         bottom: -480px;
     }
     .about-img {
-        width: 116%;
+        width: 117%;
         height: 320px;
         /* position: absolute; */
     }
