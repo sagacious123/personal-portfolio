@@ -1,0 +1,256 @@
+
+
+:root {
+  --primary-color: #6edae6;
+  --white-color: #fff;
+  --black-color: #000;
+}
+
+
+/* Section 3 */
+.section-3 {
+  width: 100%;
+  height: 100%;
+  background-color: var(--black-color);
+  flex-direction: column;
+  padding: 15rem 0;
+  clip-path: polygon(68% 0, 100% 0, 100% 97%, 38% 100%, 0 100%, 0 3%);
+}
+
+/* Section 3 Heading */
+.section-3-heading {
+  font-size: 10rem;
+  font-weight: 200;
+  color: var(--primary-color);
+  margin-bottom: 15rem;
+}
+/* End of Section 3 Heading */
+
+/* Section 3 Content */
+.section-3-content {
+  width: 80%;
+  flex-direction: column;
+  perspective: 1000rem;
+  position: relative;
+}
+
+/* Section 3 Images */
+.section-3-content img {
+  width: inherit;
+}
+
+.macbook-img-1 {
+  transform: rotateX(-80deg) translateY(5px);
+  transform-origin: bottom;
+  width: 100%;
+  height: 190px;
+  z-index: -1;
+  position: relative;
+}
+.img-group::after {
+  content: "";
+  position: absolute;
+  width: 75%;
+  height: 176px;
+  background-color: black;
+  left: 12%;
+  top: 15px;
+  z-index: -1;
+  transform: rotateX(-80deg) ;
+  transform-origin: bottom;
+}
+
+.change .img-group::after {
+  transform: rotateX(0);
+  opacity: 0;
+  transition: transform 5s, opacity 5s 3s;
+
+}
+
+.macbook-img-2 {
+  width: 100%;
+}
+
+.change .macbook-img-1 {
+  transform: rotateX(0) translateY(5px);
+  transition: transform 5s;
+}
+.macload-wrapper {
+  position: absolute;
+  top: 15px;
+  width: 75%;
+  height: 178px;
+  left: 12%;
+  z-index: -1;
+  opacity: 0;
+}
+
+.change .macload-wrapper {
+  opacity: 1;
+  transition: opacity 1s 2s;
+}
+
+.mac-load {
+    width: 100%;
+    height: 178px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.change .mac-load {
+  opacity: 0;
+  transition: 1s 5s;
+}
+
+.mac-load i {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: .6rem;
+}
+
+.progress-bar {
+  width: 5.6rem;
+  height: 0.13rem;
+  background-color: #888;
+  border-radius: 5rem;
+  position: relative;
+}
+
+.progress-bar::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: white;
+}
+
+.change .progress-bar::after {
+  width: 100%;
+  transition: width 2s 1.4s;
+}
+/* End of Section 3 Loading */
+
+/* Section 3 Info */
+.macbook-info {
+  position: absolute;
+  width: 70rem;
+  text-align: center;
+  opacity: 0;
+}
+
+.change .macbook-info {
+  opacity: 1;
+  transition: opacity 1s 6s;
+}
+
+.macbook-info-heading {
+  font-size: 6rem;
+  font-weight: 400;
+  color: var(--primary-color);
+}
+
+.macbook-price {
+  font-size: 2.5rem;
+  font-weight: 200;
+  margin: 3rem 0;
+}
+
+.macbook-btn {
+  width: 25rem;
+  height: 5rem;
+  background-image: linear-gradient(#ddd, #fff);
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0.1rem 0.1rem 0.1rem #fff, -0.1rem -0.1rem 0.1rem #fff;
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+/* End of Section 3 Info */
+/* End of Section 3 Content */
+/*End of Section 3 */
+
+
+/* Responsive */
+
+
+@media (max-width: 900px) {
+  .section-3-content {
+    width: 90%;
+  }
+
+  .loading-wrapper {
+    width: 70%;
+  }
+
+  .loading i {
+    font-size: 6rem;
+  }
+
+  .section-5-heading {
+    font-size: 12rem;
+  }
+}
+
+
+@media (max-width: 550px) {
+  .navbar-link {
+    margin: 0 1.5rem;
+  }
+
+  .section-2-heading {
+    font-size: 8rem;
+  }
+
+  .section-3-heading {
+    font-size: 8rem;
+  }
+
+  .macbook-info-heading {
+    font-size: 5rem;
+  }
+
+  .macbook-btn {
+    width: 15rem;
+    height: 3rem;
+    font-size: 1.3rem;
+  }
+
+  .airpods-buttons {
+    width: 50rem;
+    text-align: center;
+  }
+
+  .icon-link img {
+    width: 8rem;
+  }
+}
+
+@media (max-width: 450px) {
+
+  .macbook-info {
+    width: 40rem;
+  }
+
+  .macbook-info-heading {
+    font-size: 3rem;
+  }
+
+  .macbook-price {
+    font-size: 2rem;
+    font-weight: 300;
+  }
+
+}
+/* End of Responsive */

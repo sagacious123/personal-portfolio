@@ -5,178 +5,233 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bajegbo Joseph | Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet"> 
-    <link href="//db.onlinewebfonts.com/c/d66fa62dabed66f2226a1b2d17da0579?family=Showcard+Gothic" rel="stylesheet" type="text/css"/>   
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Josefin+Slab:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=Mulish:wght@300;400;500;600&display=swap" rel="stylesheet">   
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;1,400;1,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="aos-master/dist/aos.css">
     <link rel="stylesheet" href="font-awesome/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
 </head>
-<body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
-    <header class="header">
-        <nav class="container">
-            <div class="navbar">    
-                <a href="index.html" class="nav-brand" ><span style="color: rgb(255, 67, 99);">Bajegbo</span> <span style="color: white;">Joseph</span></a>
+<body>
+    <span class="loader"></span>
+    <div class="whole">
+        <header class="header">
+            <nav class="container">
+                <div class="navbar">    
+                    <a href="index.html" class="nav-brand" ><span style="color: rgb(255, 67, 99);">Bajegbo</span> <span style="color: white;">Joseph</span></a>
 
-                <div class="nav-items">
-                    <ul>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
+                    <div class="nav-items">
+                        <ul class="nav">
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav-toggler" style="display: none;">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
                 </div>
-                <div class="nav-toggler" style="display: none;">
-                    <div class="bar1"></div>
-                    <div class="bar2"></div>
-                    <div class="bar3"></div>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <section class="hero" id="hero">
-            <div class="hero-inner">
-                <div class="hero-inner2">
-                    <div class="container hero-inner3">
-                        <div class="container-flex">
-                            <div>
-                            <p>Hello! I'm <span>Bajegbo Joseph</span></p>
-                            <h3>I'm a <span>Front-End Web Developer.</span></h3>
-                            <a href="#contact"><button>Contact me</button></a>
+            </nav>
+        </header>
+        <main>
+            <section class="hero" id="hero">
+                <div class="hero-inner">
+                    <div class="hero-inner2">
+                        <div class="container hero-inner3">
+                            <div class="container-flex">
+                                <div>
+                                    <h2>Hello! I'm <span>Bajegbo Joseph</span></h2>
+                                    <h3>I'm a <span>Front-End Web Developer.</span></h3>
+                                    <a href="#contact"><button class="btn">Contact me</button></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <section class="about-section" id="about">
-        <!-- <hr class="style-one"> -->
+            </section>
+            <section class="about-section show-active" id="about">
+            <!-- <hr class="style-one"> -->
 
-            <div class="container">
-                <div class="row" style="width: 700px; max-width: 100%; margin: auto;">
-                    <h1>ABOUT ME</h1>
-                    
+                <div class="container">
+                    <div class="row" style="width: 900px; max-width: 100%; margin: auto;">
+                        <h1>ABOUT ME</h1>
+                        
                         <h3>ABOUT ME</h3>
-                        <img src="images/my-img2.jpg" class="about-img" alt="about-img">
-                        <p><i>H</i>ello! I'm Joseph, a Front-End web Developer based in Abeokuta, Ogun State.</p> 
-                        
-                        <p>My interest in Web development was borne out of the fact that I've always had a knack for design right from my younger years. The drawings and the little designs I made then unlocked the creative side of me. I am a very creative and passionate developer with a keen eye for details, without leaving out the aesthetic part.</p>
-                        
-                        <p>I am a Mass communication graduate and that has made me knowledgeable in the art and science of appealing to a heterogeneous set of people which will always come in handy as a web developer. </p>
+                        <div class="about-group">
+                            <img src="images/coder.gif" class="about-img" alt="about-img" data-aos="fade-left" data-aos-duration="850" data-aos-delay="250">
+                            <div class="about-content" data-aos="fade-right" data-aos-duration="850" data-aos-delay="250">
+                                <p><span>H</span>ello! I'm Joseph, a Front-End web Developer based in Abeokuta, Ogun State.</p> 
+                                
+                                <p>My interest in Web development was borne out of the fact that I've always had a knack for design right from my younger years. The drawings and the little designs I made then unlocked the creative side of me. I am a very creative and passionate developer with a keen eye for details, without leaving out the aesthetic part.</p>
+                                
+                                <p>I am a Mass communication graduate and that has made me knowledgeable in the art and science of appealing to a heterogeneous set of people which will always come in handy as a web developer. </p>
 
-                        <p>My areas of proficiency are <b>HTML5</b>, <b>CSS3</b> and <b>Javascript</b>.</p>
-                        <p>I look forward to working with you.</p>
-
-                        
-                </div>
-            </div>
-        </section>
-        <hr class="style-one">
-        <section class="portfolio-section" id="portfolio">
-            <div class="container">
-                <div class="row2" style="width: 900px; max-width: 100%; margin: auto;">
-                    <h1>PORTFOLIO</h1>
-                    <h3>PORTFOLIO</h3>
-                    <div class="port-card">
-                        <a href="http://boltproject.netlify.app" class="card" data-aos="fade-up" data-aos-duration="850" data-aos-delay="280">
-                            <div class="img-group">
-                                <img class="img-laptop" src="images/pngguru.com1.png">
-                                <img class="img-webpage" src="images/boltpage.png">
+                                <p>My areas of proficiency are <b>HTML5</b>, <b>CSS3</b> and <b>Javascript</b>.</p>
+                                <p>I look forward to working with you.</p>
                             </div>
-                            <h2>Bolt</h2>
-                        </a>
-                        <a href="https://decagonproject.netlify.app" class="card" data-aos="fade-up" data-aos-duration="850" data-aos-delay="250">
-                            <div class="img-group">
-                                <img class="img-laptop" src="images/pngguru.com1.png">
-                                <img class="img-webpage" src="images/decagonpage2.png">
-                            </div>
-                            <h2>Decagon</h2>
-                        </a>
-                        <a href="https://anybiz.netlify.app" class="card" data-aos="fade-up" data-aos-duration="850" data-aos-delay="280">
-                            <div class="img-group">
-                                <img class="img-laptop" src="images/pngguru.com1.png">
-                                <img class="img-webpage" src="images/anybiz.png">
-                            </div>
-                            <h2>Portfolio Landing Page</h2>
-                        </a>
-                        <a href="https://720degreehub.com/jobs" class="card" data-aos="fade-up" data-aos-duration="850" data-aos-delay="280">
-                            <div class="img-group">
-                                <img class="img-laptop" src="images/pngguru.com1.png">
-                                <img class="img-webpage" src="images/720degree.png">
-                            </div>
-                            <h2>720Degree Hub Job vacancy page</h2>
-                        </a>
-                        <a href="http://bookmark-p.vercel.app" class="card" data-aos="fade-up" data-aos-duration="850" data-aos-delay="250">
-                            <div class="img-group">
-                                <img class="img-laptop" src="images/pngguru.com1.png">
-                                <img class="img-webpage" src="images/bookmark.png">
-                            </div>
-                            <h2>Bookmark Landing Page</h2>
-                        </a>
-                        <a href="http://bgcolor-generator.netlify.app" class="card" data-aos="fade-up" data-aos-duration="850" data-aos-delay="280">
-                            <div class="img-group">
-                                <img class="img-laptop" src="images/pngguru.com1.png">
-                                <img class="img-webpage" src="images/bg-generator2.png">
-                            </div>
-                            <h2>Background Gradient Generator</h2>
-                        </a>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- <section class="contact-section" id="contact" style="padding: 4rem 0;">
-            <div class="container" data-aos="fade-up" data-aos-duration="750" data-aos-delay="250">
-                
-                <div class="row" style="display: flex; width: 1000px; max-width: 85%; margin: auto;">
-                    <form class="message">
-                        <input type="text" name="name" id="" placeholder="Enter your name">
-                        <input type="email" name="email" id="" placeholder="Email address">
-                        <input type="text" name="subject" id="" placeholder="Subject">
-                        <textarea name="" id="" cols="30" rows="10" placeholder="Your message"></textarea>
-                        <button>SEND</button>
-                    </form>
+            </section>
+            <!-- <hr class="style-one"> -->
+            <section class="portfolio-section show-active" id="portfolio">
+                <div class="container">
+                    <div class="row2" style="width: 900px; max-width: 100%; margin: auto;">
+                        <h1>PORTFOLIO</h1>
+                        <h3>PORTFOLIO</h3>
+                        <div class="port-card">
+                            <a href="http://boltproject.netlify.app" class="card" data-aos="fade-up" data-aos-duration="850" data-aos-delay="280" data-tilt>
+                                <div class="img-group">
+                                    <img src="images/MacBook/macbook-screen.png" class="macbook-img-1">
+                                    <img src="images/MacBook/macbook-keyboard.png" class="macbook-img-2">
+                                    <img class="img-webpage" src="images/boltpage.png">
+                                    <div class="macload-wrapper">
+                                        <div class="mac-load">
+                                            <i class="fa fa-apple"></i>
+                                            <div class="progress-bar"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h2>Bolt</h2>
+                            </a>
+                            <a href="https://decagonproject.netlify.app" class="card" data-aos="fade-up" data-aos-duration="850" data-aos-delay="250" data-tilt>
+                                <div class="img-group">
+                                    <img src="images/MacBook/macbook-screen.png" class="macbook-img-1">
+                                    <img src="images/MacBook/macbook-keyboard.png" class="macbook-img-2">
+                                    <img class="img-webpage" src="images/decagonpage2.png">
+                                    <div class="macload-wrapper">
+                                        <div class="mac-load">
+                                            <i class="fa fa-apple"></i>
+                                            <div class="progress-bar"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h2>Decagon</h2>
+                            </a>
+                            <a href="https://anybiz.netlify.app" class="card" data-aos="fade-up" data-aos-duration="850" data-aos-delay="280" data-tilt>
+                                <div class="img-group">
+                                    <img src="images/MacBook/macbook-screen.png" class="macbook-img-1">
+                                    <img src="images/MacBook/macbook-keyboard.png" class="macbook-img-2">
+                                    <img class="img-webpage" src="images/anybiz.png">
+                                    <div class="macload-wrapper">
+                                        <div class="mac-load">
+                                            <i class="fa fa-apple"></i>
+                                            <div class="progress-bar"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h2>Portfolio Landing Page</h2>
+                            </a>
+                            <a href="https://720degreehub.com/jobs" class="card" data-aos="fade-up" data-aos-duration="850" data-aos-delay="280" data-tilt>
+                                <div class="img-group">
+                                    <img src="images/MacBook/macbook-screen.png" class="macbook-img-1">
+                                    <img src="images/MacBook/macbook-keyboard.png" class="macbook-img-2">
+                                    <img class="img-webpage" src="images/720degree.png">
+                                    <div class="macload-wrapper">
+                                        <div class="mac-load">
+                                            <i class="fa fa-apple"></i>
+                                            <div class="progress-bar"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h2>720Degree Hub Job page</h2>
+                            </a>
+                            <a href="http://bookmark-p.vercel.app" class="card" data-aos="fade-up" data-aos-duration="850" data-aos-delay="250" data-tilt>
+                                <div class="img-group">
+                                    <img src="images/MacBook/macbook-screen.png" class="macbook-img-1">
+                                    <img src="images/MacBook/macbook-keyboard.png" class="macbook-img-2">
+                                    <img class="img-webpage" src="images/bookmark.png">
+                                    <div class="macload-wrapper">
+                                        <div class="mac-load">
+                                            <i class="fa fa-apple"></i>
+                                            <div class="progress-bar"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h2>Bookmark Landing Page</h2>
+                            </a>
+                            <a href="http://bgcolor-generator.netlify.app" class="card" data-aos="fade-up" data-aos-duration="850" data-aos-delay="280" data-tilt>
+                                <div class="img-group">
+                                    <img src="images/MacBook/macbook-screen.png" class="macbook-img-1">
+                                    <img src="images/MacBook/macbook-keyboard.png" class="macbook-img-2">
+                                    <img class="img-webpage" src="images/bg-generator2.png">
+                                    <div class="macload-wrapper">
+                                        <div class="mac-load">
+                                            <i class="fa fa-apple"></i>
+                                            <div class="progress-bar"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h2>Background Gradient Generator</h2>
+                            </a>
+                        </div>
+                        <a href="https://github.com/sagacious123?tab=repositories" target="_blank"><button class="btn btn2">More</button></a>
+                    </div>
+                </div>
+            </section>
+            
+
+            <!-- <section class="contact-section" id="contact" style="padding: 4rem 0;">
+                <div class="container" data-aos="fade-up" data-aos-duration="750" data-aos-delay="250">
                     
-                </div>
-            </div>
-        </section> -->
-        <div style="display: none; flex-direction: column; width: 50px; border-radius: 5px; position: fixed; top: 20rem; right: 0; z-index: 9; padding: 1rem; background-color: #a64ac9;">
-            <i style="font-size: 2rem; color: white;" class="fa fa-facebook"></i>
-            <i style="font-size: 2rem; color: white;" class="fa fa-twitter"></i>
-            <i style="font-size: 2rem; color: white;" class="fa fa-instagram"></i>
-        </div>
-        <footer class="foot" id="contact">
-            <div class="container">
-                <h3>Get in touch</h3>
-                <div class="foot-row">
-                    <div class="details">
-                        <div>
-                            <i class="fa fa-home"></i>
-                            <p>720degree Hub, Ake, Abeokuta, Ogun State</p> 
-                        </div>
-                        <div>
-                            <i class="fa fa-phone"></i>
-                            <p>+2348166716781</p> 
-                        </div>
-                        <div>
-                            <i class="fa fa-envelope"></i>
-                            <p>damilolaj23@gmail.com</p> 
-                        </div>
-                    </div>
-                    <div class="icons-side">
-                        <h2>Interested in working with me? <br> <span>You can also contact me on these platforms</span></h2>
-                        <div class="icons">
-                            <a href=mailto:damilolaj23@gmail.com"><i class="fa fa-envelope"></i></a>
-                            <a href="http://www.facebook.com/bajegbo.damilola"><i class="fa fa-facebook-official"></i></a>
-                            <a href="http://www.twitter.com/damilolaj23"><i class="fa fa-twitter"></i></a>
-                            <a href="http://www.linkedin.com/in/damilola-joseph-9107011b2/"><i class="fa fa-linkedin-square"></i></a>
-                            <a href="http://www.github.com/sagacious123"><i class="fa fa-github"></i></a>
-                        </div>
+                    <div class="row" style="display: flex; width: 1000px; max-width: 85%; margin: auto;">
+                        <form class="message">
+                            <input type="text" name="name" id="" placeholder="Enter your name">
+                            <input type="email" name="email" id="" placeholder="Email address">
+                            <input type="text" name="subject" id="" placeholder="Subject">
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Your message"></textarea>
+                            <button>SEND</button>
+                        </form>
+                        
                     </div>
                 </div>
-                <p style="margin: 0;">&copy Bajegbo Joseph 2020</p>
-            </div>
-        </footer>
-    </main>
+            </section> -->
+            <footer class="foot show-active" id="contact">
+                <div class="container">
+                    <h2>Get in touch</h2>
+                    <div class="foot-row">
+                        <div class="details">
+                            <div>
+                                <i class="fa fa-home"></i>
+                                <p>720degree Hub, Ake, Abeokuta, Ogun State</p> 
+                            </div>
+                            <div>
+                                <i class="fa fa-phone"></i>
+                                <p>+2348166716781</p> 
+                            </div>
+                            <div>
+                                <i class="fa fa-envelope"></i>
+                                <p>damilolaj23@gmail.com</p> 
+                            </div>
+                        </div>
+                        <div class="icons-side">
+                            <h3>Interested in working with me? <br> <span>You can also contact me on these platforms</span></h3>
+                            <div class="icons">
+                                <a href="mailto:damilolaj23@gmail.com"><i class="fa fa-envelope"></i></a>
+                                <a href="http://www.facebook.com/bajegbo.damilola"><i class="fa fa-facebook-official"></i></a>
+                                <a href="http://www.twitter.com/damilolaj23"><i class="fa fa-twitter"></i></a>
+                                <a href="http://www.linkedin.com/in/damilola-joseph-9107011b2/"><i class="fa fa-linkedin-square"></i></a>
+                                <a href="http://www.github.com/sagacious123"><i class="fa fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <p style="margin: 0; font-weight: 500;">&copy; Bajegbo Joseph 2020</p>
+                </div>
+            </footer>
+        </main>
+    </div>
 
     <script src="script.js"></script>
+    <script src="script2.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="tilt.js"></script>
     <script src="aos-master/dist/aos.js"></script>
     <script>
         AOS.init({
