@@ -184,8 +184,8 @@ a {
     transition: .4s ease;
 }
 .hero {
-    background: linear-gradient(to bottom, rgb(49 5 26 / 78%), rgb(8 11 84 / 68%)), url(images/blue-bg.jpg) no-repeat;
-    /* background: linear-gradient(to bottom, rgb(101 10 51 / 47%), #080a5296), url(images/blue-bg.jpg) no-repeat; */
+    /* background: linear-gradient(to bottom, rgb(49 5 26 / 78%), rgb(8 11 84 / 68%)), url(images/blue-bg.jpg) no-repeat; */
+    background: linear-gradient(to bottom, rgb(101 10 51 / 47%), #080a5296), url(images/blue-bg.jpg) no-repeat;
     /* background: linear-gradient(to bottom, #7a19f12b, #33217940), url(images/bg-pink2.jpg) no-repeat ; */
     background-size: cover;
     position: relative;
