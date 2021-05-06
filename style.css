@@ -184,7 +184,8 @@ a {
     transition: .4s ease;
 }
 .hero {
-    background: linear-gradient(to bottom, rgb(101 10 51 / 47%), #080a5296), url(images/bg-pink2.jpg) no-repeat;
+    background: linear-gradient(to bottom, rgb(49 5 26 / 78%), rgb(8 11 84 / 68%)), url(images/blue-bg.jpg) no-repeat;
+    /* background: linear-gradient(to bottom, rgb(101 10 51 / 47%), #080a5296), url(images/blue-bg.jpg) no-repeat; */
     /* background: linear-gradient(to bottom, #7a19f12b, #33217940), url(images/bg-pink2.jpg) no-repeat ; */
     background-size: cover;
     position: relative;
@@ -556,20 +557,23 @@ a {
 .foot .icons {
     margin-top: 1.5rem;
     text-align: center;
+    display: flex;
+    justify-content: space-evenly;
 }
-.foot a i {
-    font-size: 1rem;
-    margin-right: 1.8rem;
-    color: white;
+.foot a {
     border: 1px solid #ffffffbf;
     border-radius: 3px;
-    padding: .4rem;
+    padding: .45rem .45rem .35rem .45rem;
+    color: white;
     transition: .3s linear;
+}
+.foot a i {
+    font-size: 92%;
 }
 .fa-github {
     margin-right: 0 !important;
 }
-.foot a i:hover {
+.foot a:hover {
     color:  rgb(255, 67, 99);
     border-color:  rgb(255, 67, 99);
 }
@@ -725,9 +729,6 @@ hr.style-one {
         width: 100%;
         margin-bottom: 3rem;
     }
-    .foot a i {
-        margin-right: 1rem;
-    }
 }
 @media (max-width:700px) {
     .hero::after {
@@ -738,6 +739,9 @@ hr.style-one {
     }
     .hero-inner2::before {
         bottom: -430px;
+    }
+    .about-section h3, .portfolio-section h3, .foot h2 {
+        font-size: 1.6rem;
     }
 }
 @media (max-width:458px) {
