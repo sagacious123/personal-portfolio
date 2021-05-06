@@ -717,7 +717,6 @@ hr.style-one {
     }
     .about-content {
         max-width: 500px;
-        /* width: 68%; */
     }
 }
 @media (max-width:800px) {
